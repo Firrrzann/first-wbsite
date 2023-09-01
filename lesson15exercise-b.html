@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Exercise 15 b
+        </title>
+
+        <style>
+            .body{
+                height: 3000px;
+            }
+
+            .hello{
+                position: fixed;
+                background-color: lightblue;
+                top: 0px;
+                left: 10px;
+                right: 5px;
+                z-index: 100;
+                padding-bottom: 30px;
+            }
+
+            .search-button{ 
+                height: 29px;
+                font-size: 20px;
+                text-align: end;
+            }
+
+            .row{
+                width: 400px;
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 1000px;
+            }
+
+            .thumbnail{
+             width: 330px;   
+             position: absolute;
+             margin-top: 45px;
+             
+                
+            }
+            .cloth{
+                width: 230px;
+                cursor: pointer;
+                
+            }
+
+
+            .discount{
+                background-color: black;
+                width: 65px;
+                height: 20px;
+                display: block;
+                right: 2px;
+                position: relative;
+                margin-left: 160px;
+                margin-top: -210px;
+                cursor: pointer;
+                
+            }
+
+            .font{
+                color: aliceblue;
+                padding-left: 7px;
+                padding-top: 2px;
+                font-size: 13px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="row">
+            <div class="hello">
+                <input class="search-button" placeholder="carilaa" type="textbox">
+
+            </div>
+            <div class="thumbnail">
+                <img class="cloth" src="thumbnails/t-shirt.jpg">
+                <div class="discount">
+                    <div class="font">
+                        20% OFF
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+
+
+        <div class="row">
+            <div class="thumbnail">
+                <img class="cloth" src="thumbnails/t-shirt.jpg">
+                <div class="discount">
+                    <div class="font">
+                        20% OFF
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </body>
+</html>

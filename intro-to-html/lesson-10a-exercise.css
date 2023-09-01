@@ -1,0 +1,97 @@
+.p{
+
+}
+
+.first-row{
+    width: 1000px;
+}
+
+
+.video-preview{
+    display:inline-block;
+    width: 320px;
+    vertical-align:top;
+    
+}
+
+.thumbnail-row{
+    width:165px;
+    display: inline-block;
+}
+
+
+.kucing{
+    width:150px;
+    display: inline-block;
+
+}
+
+.kucing2{
+    width:150px;
+    height:100px;
+    display: inline-block;
+}
+
+.kucing3{
+    width:150px;
+    display: inline-block;
+}
+
+
+.video-info{
+    display: inline-block;
+    width: 70px;
+    vertical-align: top;
+    
+}
+
+
+.video-title{
+    display: block;
+    margin-top: 3px;
+    font-weight: bold;
+    
+}
+
+
+
+.video-description, 
+.video-stats{
+    display: block;
+    color: grey;
+    
+}
+
+
+
+
+.button-info{
+    width:70px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.follow-button{
+    color: white;
+    background-color:rgb(22, 133, 236);
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 13px;
+    padding-left: 13px;
+    border: none;
+    border-radius:25px;
+    margin-top: 32px;
+    cursor: pointer;
+    
+}
+
+.follow-button:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+    transition: 0.35s;
+}
+
+.follow-button:active {
+    opacity: 0.6;
+    transition: 0.15s;
+}
